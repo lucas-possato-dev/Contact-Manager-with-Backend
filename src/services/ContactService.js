@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export class ContactService {
-  static serverURL = `https://lp-contact-managar.vercel.app`;
+  static serverURL = `https://lp-contact-manager.vercel.app`;
 
   static getGroups() {
     let dataURL = `${this.serverURL}/groups`;
